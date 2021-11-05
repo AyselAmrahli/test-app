@@ -1,0 +1,45 @@
+.App {
+  width: 100%;
+  margin: 50px auto;
+}
+
+.list-comment {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.list-comment .comment-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-comment_item {
+  padding: 20px;
+  border: 2px solid #ddd;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+
+.list-comment_item  .comment-text {
+  color: gray;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.list-comment_item  .comment-author,
+.list-comment_item  .comment-date {
+  color: gray;
+  font-size: 14px;
+}
+
+
+textarea {
+  margin: 30px auto;
+  width: 100%;
+  min-height: 125px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
